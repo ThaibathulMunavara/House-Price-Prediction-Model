@@ -1,8 +1,10 @@
-🏠 Housing Price Prediction
+# 🏠 Housing Price Prediction
+
 This project predicts housing prices using machine learning techniques based on various property features. The dataset contains multiple attributes such as area, number of bedrooms, bathrooms, stories, parking spaces, and more.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-📂 Dataset
+# 📂 Dataset
+
 ## The dataset used is Housing.csv and includes:
 
      area – size of the house in square feet
