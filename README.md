@@ -1,11 +1,13 @@
 # 🏠 Housing Price Prediction
 
-This project predicts housing prices using machine learning techniques based on various property features. The dataset contains multiple attributes such as area, number of bedrooms, bathrooms, stories, parking spaces, and more.
+## 📌 Project Overview
+
+### This project aims to build a machine learning model that predicts the price of a house based on various features such as area, number of bedrooms, number of bathrooms, and more. The goal is to help real estate agencies, buyers, and sellers estimate fair market prices.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # 📂 Dataset
 
-## The dataset used is Housing.csv and includes:
+## The dataset used is Housing.csv, which contains several attributes about houses:
 
      area – size of the house in square feet
 
@@ -33,3 +35,4 @@ This project predicts housing prices using machine learning techniques based on 
 
      price – target variable, price of the house
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
