@@ -6,24 +6,6 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## ✨ Features / What it Does
-
-     - Predicts house prices using machine learning algorithms.
-
-     - Supports multiple property attributes (e.g., area, bedrooms, stories, parking).
-
-     - Handles both numerical and categorical data.
-
-     - Easy to extend with advanced models like Random Forest or XGBoost or Linear Regression model using sklearn.linear_model.
-
-     - Split data into train-test sets.
-
-     - Evaluate model using MAE, MSE, R².
-
-     - Plot regression line and interpret coefficients.
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 ## 📂 Dataset
 
 ### The dataset used is Housing.csv, which contains several attributes about houses:
@@ -53,33 +35,46 @@
      furnishingstatus – status of furnishing (furnished, semi-furnished, unfurnished)
 
      price – target variable, price of the house
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## ✨ Features / What it Does
+
+- Predicts house prices using machine learning algorithms. <br>
+- Supports multiple property attributes (e.g., area, bedrooms, stories, parking). <br>
+- Handles both numerical and categorical data.<br>
+- Easy to extend with advanced models like Random Forest or XGBoost or Linear Regression model using sklearn.linear_model. <br>
+- Split data into train-test sets. <br>
+- Evaluate model using MAE, MSE, R². <br>
+- Plot regression line and interpret coefficients. <br>
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## ⚙️ How to Run It
 
 **1. Install Dependencies**
 
-     ```pip install pandas numpy scikit-learn matplotlib seaborn'''
+     pip install pandas numpy scikit-learn matplotlib seaborn
 
 **2. Load the Dataset**
 
-     ```Place Housing.csv in the project folder.```
+     Place Housing.csv in the project folder.
 
 **3. Run the Script**
 
-     ```python housing_price_prediction.py
+     python housing_price_prediction.py
 
-        or open the Jupyter Notebook:
+     **or open the Jupyter Notebook** 
 
-        jupyter notebook Housing_Price_Prediction.ipynb```
+     jupyter notebook Housing_Price_Prediction.ipynb
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 💻 Sample Input & Output
 
 ### Input Example:
-# Prediction for New House
-```
+
+#### Prediction for New House
 new_data = pd.DataFrame({
  'area': [7200],
  'bedrooms': [3],
@@ -95,5 +90,29 @@ new_data = pd.DataFrame({
 prediction = lre.predict(new_data)
 print(f"\nPrediction for new House Price: {prediction[0]}")
 
-```
+### Output Example:
+Prediction for new House Price: 3742558777.808896
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 📸 Screenshot
+
+### Heatmap for Correlation 
+<img width="990" height="612" alt="download" src="https://github.com/user-attachments/assets/e2fb96d8-2eca-4515-b846-24661c2c32ea" />
+
+### Plot Regression Line & Interpret Coefficients
+<img width="554" height="455" alt="download" src="https://github.com/user-attachments/assets/9d87c7f1-9e05-4309-becd-02d58db910bf" />
+
+### Plot Feature coefficient with bar chart
+<img width="578" height="533" alt="download" src="https://github.com/user-attachments/assets/005fdf07-2b64-46ce-b8b4-671d668c7f6e" />
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## 👨‍💻 Author & GitHub Profile Link
+
+### Author: Thaibathul Munavara N R 
+### GitHub: [github.com/yourusername](https://github.com/ThaibathulMunavara)
+
+
+
 
