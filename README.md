@@ -75,20 +75,20 @@
 ### Input Example:
 
 #### Prediction for New House
-new_data = pd.DataFrame({
- 'area': [7200],
- 'bedrooms': [3],
- 'bathrooms': [2],
- 'stories': [2],
- 'mainroad': [1],
- 'guestroom': [2],
- 'basement': [1],
- 'airconditioning': [2],
- 'parking': [1],
- 'prefarea': [1],
- 'furnishingstatus': [1]})
-prediction = lre.predict(new_data)
-print(f"\nPrediction for new House Price: {prediction[0]}")
+     ```new_data = pd.DataFrame({
+      'area': [7200],
+      'bedrooms': [3],
+      'bathrooms': [2],
+      'stories': [2],
+      'mainroad': [1],
+      'guestroom': [2],
+      'basement': [1],
+      'airconditioning': [2],
+      'parking': [1],
+      'prefarea': [1],
+      'furnishingstatus': [1]})
+     prediction = lre.predict(new_data)
+     print(f"\nPrediction for new House Price: {prediction[0]}")```
 
 ### Output Example:
 Prediction for new House Price: 3742558777.808896
@@ -111,7 +111,7 @@ Prediction for new House Price: 3742558777.808896
 ## 👨‍💻 Author & GitHub Profile Link
 
 ### Author: Thaibathul Munavara N R 
-### GitHub: [github.com/yourusername](https://github.com/ThaibathulMunavara)
+### GitHub: [https://github.com/ThaibathulMunavara](https://github.com/ThaibathulMunavara)
 
 
 
